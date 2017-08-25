@@ -13,13 +13,13 @@
         <div id="page-wrapper">
             @include('layout._header')
             @include('layout._banner')
+            @include('auth.login')
         </div>
         <article id="main">
             @include('section.notice')
             @include('section.events')
             @include('section.aboutus')
             @include('section.message')
-
         </article>
         @include('section.footer')
         @include('layout._scripts')

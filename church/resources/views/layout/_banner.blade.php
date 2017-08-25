@@ -2,11 +2,11 @@
 
             <div class="inner">
                     <header>
-                        <h2>St.Joseph Orthodox Syrian Church</h2>
+                        <h2>St.Joseph Syrian Orthodox Church</h2>
                     </header>
                     <p>
-                        Agara, Horamavu,<br> Bangalore-43, Karnataka<br>
-                        India <br>
+                        KSR Main Road,<br> Kanakagiri, Kalkere<br>
+                        Bangalore, Karnataka, INDIA - 560 113 <br>
                         Ph: +91 80 2531 5467
                     </p>
 

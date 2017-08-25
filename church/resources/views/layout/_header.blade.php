@@ -1,5 +1,5 @@
 <header id="header" class="alt">
-    <h1 id="logo"><a href="index.php">St Joseph <span>Orthodox Syrian Church</span></a></h1>
+    <h1 id="logo"><a href="index.php">St Joseph <span>Syrian Orthodox Church</span></a></h1>
     <nav id="nav">
         <ul>
           <li class="submenu"><a href="#">Resources</a>
@@ -22,7 +22,7 @@
                     <li><a href="no-sidebar.html">Prayer Group</a></li>
                 </ul>
             </li>
-            <li><a href="#" class="button special">Login</a></li>
+            <li><a href="#" id="btn-login" class="button special">Login</a></li>
         </ul>
     </nav>
 </header>
