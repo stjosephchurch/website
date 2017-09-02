@@ -16,3 +16,8 @@ Route::get('/', function () {
 });
 
 Route::auth();
+Route::get('aboutus/church', 'AboutUsController@church');
+Route::get('aboutus/sundayschool', 'AboutUsController@sundayschool');
+Route::get('aboutus/mgocsm', 'AboutUsController@mgocsm');
+Route::get('aboutus/prayer', 'AboutUsController@prayer');
+Route::get('gallery', 'GalleryController@index');

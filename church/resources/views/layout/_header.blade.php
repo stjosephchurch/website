@@ -1,28 +1,19 @@
-<header id="header" class="alt">
-    <h1 id="logo"><a href="index.php">St Joseph <span>Syrian Orthodox Church</span></a></h1>
-    <nav id="nav">
-        <ul>
-          <li class="submenu"><a href="#">Resources</a>
-                <ul>
-                    <li><a href="#">Notice</a></li>
-                    <li class="submenu"><a href="#">Books</a>
-                        <ul>
-                            <li><a href="#">Holy Mass</a></li>
-                            <li><a href="#">Good Friday</a></li>
-                        </ul>
-                    </li>
-                    <li class="submenu"><a href="#">Events</a>
-                </ul>
-            </li>
-            <li><a href="#">Gallery</a></li>
-            <li class="submenu"><a href="#">About Us</a>
-                <ul>
-                    <li><a href="left-sidebar.html">Sunday School</a></li>
-                    <li><a href="right-sidebar.html">MJOCSM</a></li>
-                    <li><a href="no-sidebar.html">Prayer Group</a></li>
-                </ul>
-            </li>
-            <li><a href="#" id="btn-login" class="button special">Login</a></li>
-        </ul>
-    </nav>
-</header>
+<section class="hero is-primary is-large header-image">
+    <div class="hero-head">
+        @include('layout._menu')
+    </div>
+   <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title is-2">ST.Joseph Syrian Orthodox Church</h1>
+            <h2 class="subtitle is-5">
+                KSR Main Road,
+                Kanakagiri, Kalkere, Horamavu
+                Bangalore, Karnataka, India - 560 113
+            </h2>
+            <p class="button is-info is-outlined is-inverted">
+                <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                <span>+91 80 2531 5467</span>
+            </p>
+        </div>
+    </div>
+</section>

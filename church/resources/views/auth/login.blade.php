@@ -1,19 +1,54 @@
-<div id="id01" class="w3-modal">
-    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:500px">
-
-        <div class="w3-center"><br>
-            <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
-            <img src="{{asset('image/img_avatar4.png')}}" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+@extends('layout.app')
+@section('content')
+    <section class="hero is-info">
+        <div class="hero-head">
+            @include('layout._menu')
         </div>
-
-        <form class="w3-container" action="#">
-            <div class="w3-section">
-                <label><b>Username</b></label>
-                <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
-                <label><b>Password</b></label>
-                <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required>
-                <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+    </section>
+    <section>
+        <div class="login-wrapper columns">
+            <div class="column is-8 is-hidden-mobile hero-banner">
+                <section class="hero is-fullheight is-dark login-image">
+                </section>
             </div>
-        </form>
-     </div>
-</div>
+            <div class="column is-4">
+                <section class="hero is-fullheight">
+                    <div class="hero-heading">
+                     <div class="section has-text-centered">
+                        <img src="{{asset('image/logo.png')}}" alt="sjoc" width="150px">
+                     </div>
+                   </div>
+                    <div class="hero-body">
+                        <div class="container">
+                            <div class="columns">
+                                <div class="column is-8 is-offset-2">
+                                    <h1 class="login-avatar has-text-centered section">
+                                        <img src="https://placehold.it/128x128">
+                                    </h1>
+                                    <div class="login-form">
+                                        <p class="control has-icon has-icon-right">
+                                            <input class="input email-input" type="text" placeholder="R03">
+                                            <span class="icon user">
+                                                <i class="fa fa-user"></i>
+                                            </span>
+                                        </p>
+                                        <br>
+                                        <p class="control has-icon has-icon-right">
+                                            <input class="input password-input" type="password" placeholder="●●●●●●●">
+                                             <span class="icon user">
+                                                <i class="fa fa-lock"></i>
+                                            </span>
+                                        </p>
+                                        <p class="control login">
+                                            <button class="button is-success is-outlined is-large is-fullwidth">Login</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+@endsection
