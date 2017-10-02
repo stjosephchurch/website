@@ -1,12 +1,8 @@
-<footer class="footer">
-    <div class="container">
-        <div class="content is-small has-text-centered">
-            <p>
-                <div>
+<footer>
+    <div class="container text-center mb-4"><small>
+              <span>
                   &copy; St Joseph Orthodox Syrian Church 2017
-                </div>
-                <div>Design: <a href="#">OCYM, SJOC</a> </div>
-            </p>
-        </div>
+                </span>
+              <span>Design: <a href="#">OCYM, SJOC</a> </span></small>
     </div>
 </footer>

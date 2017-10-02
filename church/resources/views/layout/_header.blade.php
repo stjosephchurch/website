@@ -1,19 +1,13 @@
-<section class="hero is-primary is-large header-image">
-    <div class="hero-head">
+<section id="banner" class="banner">
+    <div class="bg-color">
         @include('layout._menu')
-    </div>
-   <div class="hero-body">
-        <div class="container has-text-centered">
-            <h1 class="title is-2">ST.Joseph Syrian Orthodox Church</h1>
-            <h2 class="subtitle is-5">
-                KSR Main Road,
-                Kanakagiri, Kalkere, Horamavu
-                Bangalore, Karnataka, India - 560 113
-            </h2>
-            <p class="button is-info is-outlined is-inverted">
-                <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                <span>+91 80 2531 5467</span>
-            </p>
+        <div class="container banner-info">
+            <h1 class="display-3 text-center">St.Joseph Orthodox Syrian Church</h1>
+            <h6 class="text-center">KSR Main Road, Kanakagiri, Kalkere, Horamavu Bangalore, Karnataka, India - 560 113</h6>
+            <h6 class="text-center mt-4 text-light">
+                <span class="border border-warning p-2"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;+91 80 123456</span>
+                <span class="border border-warning p-2"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;vicar@sjoc.in</span>
+            </h6>
         </div>
     </div>
 </section>

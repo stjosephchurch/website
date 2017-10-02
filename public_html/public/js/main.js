@@ -1,0 +1,12 @@
+(function ($) {
+//jQuery to collapse the navbar on scroll
+$(window).scroll(function() {
+    if ($(".navbar-light").offset().top > 50) {
+        $(".fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".fixed-top").removeClass("top-nav-collapse");
+           }
+    });
+
+})(jQuery);
+

@@ -1,31 +1,63 @@
 @extends('layout.app')
 
 @section('content')
-    <section class="hero is-info">
-        <div class="hero-head">
-            @include('layout._menu')
-        </div>
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <h1 class="title is-2">
-                    About Church
-                </h1>
-                <h2 class="subtitle is-4">
-                    St.Joseph Syrian Orthodox Church
-                </h2>
+    <section>
+      @include('layout._menu')
+      <div class="jumbotron">
+          <h1 class="display-3 text-primary">About Church</h1>
+      </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="{{asset('image/stjoseph.jpg')}}" alt="SJOC" class="img-thumbnail">
+            </div>
+            <div class="col-sm-8">
+                <h3 class="fw-400">About St.Joseph</h3>
+                <p class="lead">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                    qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+                    numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                </p>
             </div>
         </div>
-    </section>
-    <section class="section blog">
-        <div class="container">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit massa eget mauris hendrerit,
-                sit amet laoreet ex mattis. Aenean finibus massa eget finibus faucibus. Etiam dolor lacus, imperdiet et
-                nisl vitae, lacinia euismod arcu. Aliquam non sapien hendrerit nisi semper rhoncus a eget erat. Maecenas
-                accumsan semper ante eu molestie. Integer tristique erat sit amet posuere cursus. Aliquam placerat sit
-                amet lectus laoreet vestibulum. Sed pharetra neque ac libero ornare, nec viverra ante tristique. Mauris
-                eget urna metus.
-            </p>
-        </div>
+        <div class="row mt-4">
+            <div class="col-sm-8">
+                <h3 class="fw-400">History</h3>
+                <p class="lead">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                    qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+                    numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="{{asset('image/about.jpg')}}" alt="SJOC" class="img-thumbnail">
+            </div>
+         </div>
+            <div class="row mt-4">
+                <div class="col-sm-4">
+                    <img src="{{asset('image/about.jpg')}}" alt="SJOC" class="img-thumbnail">
+                </div>
+                <div class="col-sm-8">
+                    <h3 class="fw-400">Managing Committee</h3>
+                    <p class="lead">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                        magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                        qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+                        numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    </p>
+                </div>
+            </div>
     </section>
 @endsection
