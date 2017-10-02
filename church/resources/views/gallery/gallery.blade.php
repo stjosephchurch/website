@@ -3,15 +3,7 @@
     <section>
         @include('layout._menu')
     </section>
-    <section class="sidenav border border-light">
-        <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-dark"><i class="fa fa-home" aria-hidden="true"></i> &nbsp;Church </a>
-            <a href="#" class="list-group-item list-group-item-dark list-group-item-action"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;MGOCSM</a>
-            <a href="#" class="list-group-item list-group-item-dark list-group-item-action"><i class="fa fa-shield" aria-hidden="true"></i>&nbsp; Sunday School</a>
-            <a href="#" class="list-group-item list-group-item-dark list-group-item-action"><i class="fa fa-female" aria-hidden="true"></i>&nbsp;Martha Mariyam</a>
-            <a href="#" class="list-group-item list-group-item-dark list-group-item-action"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;Prayer Group</a>
-        </div>
-    </section>
+    @include('layout._sidemenu')
     <section class="content-margin">
         <div class="container">
             <div>
@@ -19,11 +11,11 @@
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="card bg-danger">
+                    <a href="/gallery/album"><div class="card bg-danger">
                         <div class="card-body">
-                            <h1 class="display-4 text-center">2017</h1>
+                            <h1 class="display-4 text-center text-light">2017</h1>
                        </div>
-                    </div>
+                    </div></a>
                 </div>
                 <div class="col-sm-4">
                     <div class="card bg-primary">
